@@ -12,6 +12,14 @@ Third, a k-means model is used to fit the features. A range of feature sets is u
 
 Fourth, an optimal model is selected and examined in detail, including determination of important predictive features by ANOVA p-value, cluster identification by average feature value, and cluster display on a map.
 
+NOTE: To run this project, create a file "config.py" in the main project directory and add your access keys to the following variables:
+
+    # This is a test, and is expected not to be uploaded to github
+    HERE_APIKEY = '...'
+    NM_AGENT = '...' # a nominatim agent name, not required
+    FOURSQUARE_CLIENT_ID = '...'
+    FOURSQUARE_CLIENT_SECRET = '...'
+    FOURSQUARE_ACCESS_TOKEN = '...'
 
 ## Results
 
